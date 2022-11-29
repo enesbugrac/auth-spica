@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  color: #444;
+  background: #fff;
+  height: 100vh;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formContainer {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  justify-content: center;
+  height: 30%;
+}
+.buttonContainer {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.redirectText {
+  text-align: center;
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputText {
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 85%;
+  padding-right: 5px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+  padding-left: 10px;
+  border-radius: 8px;
+}
+.authButton {
+  cursor: pointer;
+  border-radius: 20px;
+  width: 90px;
+  border-color: transparent;
+  background-color: rgb(158, 190, 236);
+  height: 40px;
+}
+.inputText::placeholder {
+  color: #000;
+}
+
+.inputSubmit {
+  background: transparent;
+  color: #5b5b5b;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.inputText,
+.inputSubmit {
+  height: 45px;
+  outline: none;
+  border: none;
+}
